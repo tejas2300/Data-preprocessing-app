@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DMDW</string>
+    <string name="firstpage_title">ATSM System</string>
+    <string name="xy">XY</string>
+    <string name="squre_root">#8730</string>
+    <string name="enter_your_attributes_in_given_attribute_1_and_attribute_2_box">Enter your attributes in given Attribute 1 and Attribute 2 box</string>
+</resources>

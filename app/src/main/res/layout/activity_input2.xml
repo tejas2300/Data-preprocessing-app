@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary2"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewxy"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border2"
+            android:gravity="center"
+            android:text="Sr No."
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/atbt1"
+            android:layout_width="127dp"
+            android:layout_weight="1"
+
+            android:layout_height="match_parent"
+            android:background="@drawable/border2"
+            android:gravity="center"
+            android:hint="Attribute 1"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B8A3A3"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/atbt2"
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="Attribute 2"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B8A3A3"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bac"
+        android:padding="5dp"
+        android:text="Next "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

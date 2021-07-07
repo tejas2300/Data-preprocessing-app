@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dmdw1">
+
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="Covarience.Cov_Answer"></activity>
+        <activity android:name="Covarience.Cov_Firstpage"></activity>
+        <activity android:name="Covarience.Cov_Input" />
+        <activity android:name="linear_regration.Lr_Calculate" />
+        <activity android:name="linear_regration.Lr_AnswerTable" />
+        <activity android:name="linear_regration.Lr_input" />
+        <activity android:name="linear_regration.Lr_Firstpage" />
+        <activity android:name=".datamining_categories" />
+
+        <activity android:name="Principle_Comp_Analysis.PCA_Firstpage" />
+        <activity android:name="Corelation_coefficient.Cc_Firstpage" />
+        <activity android:name="Principle_Comp_Analysis.PCA_Input" />
+        <activity android:name=".Matrix1Activity" />
+        <activity android:name="Principle_Comp_Analysis.PCA_AnswerTable" />
+        <activity android:name="Corelation_coefficient.Cc_AnswerTable" />
+        <activity android:name="Corelation_coefficient.Cc_Input" />
+        <activity
+            android:name="Corelation_coefficient.Cc_Final"
+            android:label="Final Answer" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
