@@ -1,6 +1,6 @@
 # Data-preprocessing-app
 
-# _DMDW-Android-App_
+
 This is Android application which can solve numerical on Correlation Coefficient, Principal Component Analysis and Linear Regression. 
 
 ## _Opening Page_
