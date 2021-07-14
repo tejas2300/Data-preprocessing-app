@@ -7,7 +7,7 @@ This is Android application which can solve numerical on Correlation Coefficient
 ![image](https://user-images.githubusercontent.com/86561203/125164891-29fff280-e1b2-11eb-8206-47e9d36402c0.png)
 
 ## _Main Page_
-![image](https://user-images.githubusercontent.com/86561203/125164917-4e5bcf00-e1b2-11eb-95aa-e97a0f152a8e.png)
+![image](https://user-images.githubusercontent.com/86561203/125164917-4e5bcf00-e1b2-11eb-95aa-e97a0f152a8e.png) 
 
 ## _Correlation Coefficient_ 
 In first page, enter number of elements then press next button  
